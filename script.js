@@ -25,11 +25,11 @@ function displayData(weatherDetails) {
 <div class="card-body">
 <h3 class="card-title">Weather Details</h3>
 </div>
-<h4>Weather in ${country} is ${temperature}°C</h4>
+<h4>Weather in ${country} is <span style="font-size: 35px;">${temperature}°C</span></h4>
 <ul class="list-group list-group-flush">
 <li class="list-group-item">Capital: ${capital}</li>
 <li class="list-group-item">Region: ${region}</li>
-<li class="list-group-item">Temperature in Farenheit: <span style="font-size: 30px;">${temperature_f}°F</span></li>
+<li class="list-group-item">Temperature in Farenheit: <span style="font-size: 20px;">${temperature_f}°F</span></li>
 <li class="list-group-item">Humidity: <span style="font-size: 30px;">${humidity}%</span></li>
 </ul>
 
